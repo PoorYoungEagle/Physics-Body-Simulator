@@ -1,0 +1,78 @@
+{
+    "universe_name": "Two Body Problem (Circular Orbit)",
+    "description": "This simulation models the Two-Body Problem.\nTwo bodies of similar mass orbiting a common barycenter external to both bodies, with circular orbits.",
+    "color": [
+        1.0,
+        0.3333333333333333,
+        0.0
+    ],
+    "no_of_particles": 2,
+    "no_of_gravity_planes": 0,
+    "boundary": false,
+    "g_value": 4.0,
+    "date": "0000-00-00 12:00:00 AM",
+    "particles": [
+        {
+            "id": 1,
+            "name": "Red",
+            "mass": 1.0,
+            "radius": 0.25,
+            "position": [
+                -1.0,
+                0.0,
+                0.0
+            ],
+            "velocity": [
+                0.0,
+                1.0,
+                0.0
+            ],
+            "acceleration": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "elasticity": 0.0,
+            "collision": false,
+            "toggle_gravity": true,
+            "color": [
+                1.0,
+                0.0,
+                0.0
+            ],
+            "parent_particle_id": "None"
+        },
+        {
+            "id": 2,
+            "name": "Blue",
+            "mass": 1.0,
+            "radius": 0.25,
+            "position": [
+                1.0,
+                0.0,
+                0.0
+            ],
+            "velocity": [
+                0.0,
+                -1.0,
+                0.0
+            ],
+            "acceleration": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "elasticity": 0.0,
+            "collision": false,
+            "toggle_gravity": true,
+            "color": [
+                0.0,
+                0.0,
+                1.0
+            ],
+            "parent_particle_id": "None"
+        }
+    ],
+    "gravity_planes": null,
+    "boundary_details": null
+}

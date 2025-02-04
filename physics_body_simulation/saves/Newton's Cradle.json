@@ -1,0 +1,179 @@
+{
+    "universe_name": "Newton's Cradle",
+    "description": "This universe simulates Newton's Cradle experiment using five orbs.\nBy adjusting a particle\u2019s velocity in increments of 2, various motion patterns emerge, showcasing momentum transfer and conservation of energy in a dynamic system.",
+    "color": [
+        0.5411764705882353,
+        0.5411764705882353,
+        0.5411764705882353
+    ],
+    "no_of_particles": 5,
+    "no_of_gravity_planes": 0,
+    "boundary": true,
+    "g_value": 0.01,
+    "date": "0000-00-00 12:00:00 AM",
+    "particles": [
+        {
+            "id": 1,
+            "name": "Left",
+            "mass": 1e-05,
+            "radius": 1.0,
+            "position": [
+                -4.0,
+                0.0,
+                0.0
+            ],
+            "velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "acceleration": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "elasticity": 1.0,
+            "collision": true,
+            "toggle_gravity": true,
+            "color": [
+                0.4,
+                0.4,
+                0.4
+            ],
+            "parent_particle_id": "None"
+        },
+        {
+            "id": 2,
+            "name": "Left Middle",
+            "mass": 1e-05,
+            "radius": 1.0,
+            "position": [
+                -2.0,
+                0.0,
+                0.0
+            ],
+            "velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "acceleration": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "elasticity": 1.0,
+            "collision": true,
+            "toggle_gravity": true,
+            "color": [
+                0.5411764705882353,
+                0.5411764705882353,
+                0.5411764705882353
+            ],
+            "parent_particle_id": "None"
+        },
+        {
+            "id": 3,
+            "name": "Middle",
+            "mass": 1e-05,
+            "radius": 1.0,
+            "position": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "acceleration": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "elasticity": 1.0,
+            "collision": true,
+            "toggle_gravity": true,
+            "color": [
+                0.8352941176470589,
+                0.8352941176470589,
+                0.8352941176470589
+            ],
+            "parent_particle_id": "None"
+        },
+        {
+            "id": 4,
+            "name": "Right Middle",
+            "mass": 1e-05,
+            "radius": 1.0,
+            "position": [
+                2.0,
+                0.0,
+                0.0
+            ],
+            "velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "acceleration": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "elasticity": 1.0,
+            "collision": true,
+            "toggle_gravity": true,
+            "color": [
+                0.5411764705882353,
+                0.5411764705882353,
+                0.5411764705882353
+            ],
+            "parent_particle_id": "None"
+        },
+        {
+            "id": 5,
+            "name": "Right",
+            "mass": 1e-05,
+            "radius": 1.0,
+            "position": [
+                4.0,
+                0.0,
+                0.0
+            ],
+            "velocity": [
+                2.0,
+                0.0,
+                0.0
+            ],
+            "acceleration": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "elasticity": 1.0,
+            "collision": true,
+            "toggle_gravity": true,
+            "color": [
+                0.4,
+                0.4,
+                0.4
+            ],
+            "parent_particle_id": "None"
+        }
+    ],
+    "gravity_planes": null,
+    "boundary_details": {
+        "width": 15.0,
+        "depth": 10.0,
+        "height": 10.0,
+        "color": [
+            1.0,
+            1.0,
+            1.0
+        ],
+        "restitution": 1.0,
+        "opacity": 100
+    }
+}

@@ -1,0 +1,108 @@
+{
+    "universe_name": "Three Body Problem (Figure 8)",
+    "description": "This simulation models the Three-Body Problem using the Figure-8 configuration, where three bodies of equal mass follow a stable, periodic orbit along a figure-eight trajectory.\nNote: Due to numerical precision limits and the chaotic nature of the system, the orbit will gradually break after several rotations.",
+    "color": [
+        0.0,
+        0.6666666666666666,
+        1.0
+    ],
+    "no_of_particles": 3,
+    "no_of_gravity_planes": 0,
+    "boundary": false,
+    "g_value": 1.0,
+    "date": "0000-00-00 12:00:00 AM",
+    "particles": [
+        {
+            "id": 1,
+            "name": "Red",
+            "mass": 1.0,
+            "radius": 0.25,
+            "position": [
+                -0.97,
+                0.243,
+                0.0
+            ],
+            "velocity": [
+                0.4662,
+                0.43236,
+                0.0
+            ],
+            "acceleration": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "elasticity": 0.0,
+            "collision": false,
+            "toggle_gravity": true,
+            "color": [
+                1.0,
+                0.0,
+                0.0
+            ],
+            "parent_particle_id": "None"
+        },
+        {
+            "id": 2,
+            "name": "Green",
+            "mass": 1.0,
+            "radius": 0.25,
+            "position": [
+                0.97,
+                -0.243,
+                0.0
+            ],
+            "velocity": [
+                0.4662,
+                0.43236,
+                0.0
+            ],
+            "acceleration": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "elasticity": 0.0,
+            "collision": false,
+            "toggle_gravity": true,
+            "color": [
+                0.0,
+                1.0,
+                0.0
+            ],
+            "parent_particle_id": "None"
+        },
+        {
+            "id": 3,
+            "name": "Blue",
+            "mass": 1.0,
+            "radius": 0.25,
+            "position": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "velocity": [
+                -0.9324,
+                -0.86473,
+                0.0
+            ],
+            "acceleration": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "elasticity": 0.0,
+            "collision": false,
+            "toggle_gravity": true,
+            "color": [
+                0.0,
+                0.0,
+                1.0
+            ],
+            "parent_particle_id": "None"
+        }
+    ],
+    "gravity_planes": null,
+    "boundary_details": null
+}

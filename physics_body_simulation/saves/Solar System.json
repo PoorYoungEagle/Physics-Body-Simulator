@@ -1,0 +1,288 @@
+{
+    "universe_name": "Solar System",
+    "description": "This universe models the Solar System as it exists in real life by adjusting and scaling down values to comprehensible figures.\nIt does not mimic the orientation or direction each planet follows in real life.",
+    "color": [
+        1.0,
+        1.0,
+        0.0
+    ],
+    "no_of_particles": 9,
+    "no_of_gravity_planes": 0,
+    "boundary": false,
+    "g_value": 0.01,
+    "date": "0000-00-00 12:00:00 AM",
+    "particles": [
+        {
+            "id": 1,
+            "name": "Sun",
+            "mass": 10000.0,
+            "radius": 10.0,
+            "position": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "velocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "acceleration": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "elasticity": 0.0,
+            "collision": false,
+            "toggle_gravity": true,
+            "color": [
+                1.0,
+                1.0,
+                0.0
+            ],
+            "parent_particle_id": "None"
+        },
+        {
+            "id": 2,
+            "name": "Mercury",
+            "mass": 1.0,
+            "radius": 0.5,
+            "position": [
+                25.0,
+                0.0,
+                0.0
+            ],
+            "velocity": [
+                0.0,
+                0.0,
+                -2.0
+            ],
+            "acceleration": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "elasticity": 0.0,
+            "collision": false,
+            "toggle_gravity": true,
+            "color": [
+                0.5803921568627451,
+                0.5803921568627451,
+                0.5803921568627451
+            ],
+            "parent_particle_id": 1
+        },
+        {
+            "id": 3,
+            "name": "Venus",
+            "mass": 2.0,
+            "radius": 0.63,
+            "position": [
+                45.0,
+                0.0,
+                0.0
+            ],
+            "velocity": [
+                0.0,
+                0.0,
+                -1.49071
+            ],
+            "acceleration": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "elasticity": 0.0,
+            "collision": false,
+            "toggle_gravity": true,
+            "color": [
+                1.0,
+                0.5529411764705883,
+                0.0392156862745098
+            ],
+            "parent_particle_id": 1
+        },
+        {
+            "id": 4,
+            "name": "Earth",
+            "mass": 3.0,
+            "radius": 0.72,
+            "position": [
+                60.0,
+                0.0,
+                0.0
+            ],
+            "velocity": [
+                0.0,
+                0.0,
+                -1.29099
+            ],
+            "acceleration": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "elasticity": 0.0,
+            "collision": false,
+            "toggle_gravity": true,
+            "color": [
+                0.0,
+                0.5333333333333333,
+                0.0
+            ],
+            "parent_particle_id": 1
+        },
+        {
+            "id": 5,
+            "name": "Mars",
+            "mass": 2.5,
+            "radius": 0.67,
+            "position": [
+                90.0,
+                0.0,
+                0.0
+            ],
+            "velocity": [
+                0.0,
+                0.0,
+                -1.05409
+            ],
+            "acceleration": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "elasticity": 0.0,
+            "collision": false,
+            "toggle_gravity": true,
+            "color": [
+                1.0,
+                0.0,
+                0.0
+            ],
+            "parent_particle_id": 1
+        },
+        {
+            "id": 6,
+            "name": "Jupiter",
+            "mass": 300.0,
+            "radius": 4.14,
+            "position": [
+                150.0,
+                0.0,
+                0.0
+            ],
+            "velocity": [
+                0.0,
+                0.0,
+                -0.81649
+            ],
+            "acceleration": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "elasticity": 0.0,
+            "collision": false,
+            "toggle_gravity": true,
+            "color": [
+                0.7450980392156863,
+                0.49411764705882355,
+                0.054901960784313725
+            ],
+            "parent_particle_id": 1
+        },
+        {
+            "id": 7,
+            "name": "Saturn",
+            "mass": 100.0,
+            "radius": 3.16,
+            "position": [
+                250.0,
+                0.0,
+                0.0
+            ],
+            "velocity": [
+                0.0,
+                0.0,
+                -0.63245
+            ],
+            "acceleration": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "elasticity": 0.0,
+            "collision": false,
+            "toggle_gravity": true,
+            "color": [
+                1.0,
+                0.8431372549019608,
+                0.054901960784313725
+            ],
+            "parent_particle_id": 1
+        },
+        {
+            "id": 8,
+            "name": "Uranus",
+            "mass": 50.0,
+            "radius": 2.71,
+            "position": [
+                450.0,
+                0.0,
+                0.0
+            ],
+            "velocity": [
+                0.0,
+                0.0,
+                -0.4714
+            ],
+            "acceleration": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "elasticity": 0.0,
+            "collision": false,
+            "toggle_gravity": true,
+            "color": [
+                0.0,
+                1.0,
+                1.0
+            ],
+            "parent_particle_id": 1
+        },
+        {
+            "id": 9,
+            "name": "Neptune",
+            "mass": 50.0,
+            "radius": 2.71,
+            "position": [
+                800.0,
+                0.0,
+                0.0
+            ],
+            "velocity": [
+                0.0,
+                0.0,
+                -0.35355
+            ],
+            "acceleration": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "elasticity": 0.0,
+            "collision": false,
+            "toggle_gravity": true,
+            "color": [
+                0.0,
+                0.0,
+                1.0
+            ],
+            "parent_particle_id": 1
+        }
+    ],
+    "gravity_planes": null,
+    "boundary_details": null
+}

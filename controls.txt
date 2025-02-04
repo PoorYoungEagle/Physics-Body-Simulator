@@ -1,0 +1,16 @@
+Movement Controls:  
+W - Move forward (into the screen)  
+S - Move backward (away from the screen)  
+A - Move left  
+D - Move right  
+Space - Move upward  
+Ctrl - Move downward  
+
+Camera Controls:  
+Left Click + Drag - Rotate the view 
+
+Simulation Controls:  
+Q - Start the simulation  
+E - Stop the simulation  
+R - Reset the simulation 
+F - Toggle Fullscreen Mode
