@@ -11,7 +11,7 @@ pip install -r requirements.txt
 ```
 Or install them manually : 
 ```bash
-pip install PyQt5 PyOpenGL numpy pyqtgraph
+pip install PyQt5 PyOpenGL numpy pyqtgraph pyrr
 ```
 
 ## Running the Simulator
