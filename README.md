@@ -5,7 +5,7 @@ A PyQt5 and PyOpenGL based simulator which simulates the interaction between bod
 ![](/images/newton_gif.gif)
 
 ## Motivation
-As a way to start learning Python, this project idea specifically came to mind while watching a Veritasium video that explored a scenario involving an empty, static universe with nothing in it except a single spherically symmetric physical body. 
+As a way to start learning Python, this project idea specifically came to mind while watching a [Veritasium video](https://youtu.be/6akmv1bsz1M?si=2NwH1JOH_uGeQnhm) that explored a scenario involving an empty, static universe with nothing in it except a single spherically symmetric physical body. 
 I loved the concept of it as it introduces a world governed by a small set of simple rules, yet capable of producing counterintuitive behaviour. This sparked my interest in programming a simulator to view gravitational and dynamic interactions through code aswell as creating feedback using graphs.
 
 ## Installation
